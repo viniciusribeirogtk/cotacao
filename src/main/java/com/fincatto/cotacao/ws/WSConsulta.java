@@ -1,17 +1,17 @@
 package com.fincatto.cotacao.ws;
 
-import com.fincatto.cotacao.classes.Cotacao;
-import com.fincatto.cotacao.classes.Indice;
-import com.fincatto.cotacao.ws.comum.WSValorSerieVO;
-import com.fincatto.cotacao.ws.servicos.FachadaWSSGS;
-import com.fincatto.cotacao.ws.servicos.FachadaWSSGSProxy;
-
 import java.math.BigDecimal;
 import java.rmi.RemoteException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.SortedSet;
 import java.util.TreeSet;
+
+import com.fincatto.cotacao.classes.Cotacao;
+import com.fincatto.cotacao.classes.Indice;
+import com.fincatto.cotacao.ws.comum.WSValorSerieVO;
+import com.fincatto.cotacao.ws.servicos.FachadaWSSGS;
+import com.fincatto.cotacao.ws.servicos.FachadaWSSGSProxy;
 
 public class WSConsulta {
 

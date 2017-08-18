@@ -16,7 +16,10 @@ public enum Indice {
     //indices
     IGPM(189, "IGP-M"),
     OURO_BMF(4, "Ouro BMF"),
-    SELIC(11, "Selic");
+    SELIC(11, "Selic"),
+    PIB_MENSAL(4380, "PIB"),
+    SELIC_META(432, "Selic Meta"),
+	CDI_MES(4392, "CDI Mensal");
 
 
     private final long codigo;

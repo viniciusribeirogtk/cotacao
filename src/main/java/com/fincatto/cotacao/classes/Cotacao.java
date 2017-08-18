@@ -2,6 +2,7 @@ package com.fincatto.cotacao.classes;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 
 public class Cotacao implements Comparable<Cotacao> {
@@ -18,6 +19,10 @@ public class Cotacao implements Comparable<Cotacao> {
 
     public LocalDate getData() {
         return data;
+    }
+    
+    public String getDataParsed() {
+        return data.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
     }
 
     private Indice getIndice() {
